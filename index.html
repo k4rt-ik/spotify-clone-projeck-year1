@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');</style>
+</head>
+<body>
+    
+    <nav>
+        <ul><span>
+        <img class="brand" alt="spotify" id="logo" src="logo.png"></span>
+        <li id="title"><strong>Spotify</strong></li>
+        <li>home</li>
+        <li>search</li>
+        <li>playlist</li>
+    </ul>
+</nav>
+<div class="container"><div class="whole-list">
+    <h1>Song List</h1>
+    <div class="songlist">
+            <div class="songitem">
+            <img alt="coverimage">
+            <span class="songname">fitoor - bella</span>
+            <span class="timestamp">3:06<i id="1" class="fa-solid songplay fa-1x fa-circle-play"></i></span>
+            </div>
+            <div class="songitem">
+            <img alt="coverimage">
+            <span class="songname">HOPE - NF</span>
+            <span class="timestamp">3:06<i id="2" class="fa-solid songplay fa-1x fa-circle-play"></i></span>
+            </div>
+            <div class="songitem">
+            <img alt="coverimage">
+            <span class="songname">Prove Them Wrong - bella</span>
+            <span class="timestamp">3:06<i id="3" class="fa-solid songplay fa-1x fa-circle-play"></i></span>
+            </div>
+            <div class="songitem">
+            <img alt="coverimage">
+            <span class="songname">Raakh Zamana Kar - bella</span>
+            <span class="timestamp">3:06<i id="4" class="fa-solid songplay fa-1x fa-circle-play"></i></span>
+            </div>
+            <div class="songitem">
+            <img alt="coverimage">
+            <span class="songname">The Search - NF</span>
+            <span class="timestamp">3:06<i id="5" class="fa-solid fa-1x fa-circle-play"></i></span>
+            </div>
+            <div class="songitem">
+            <img alt="coverimage">
+            <span class="songname">When I Grow Up - NF</span>
+            <span class="timestamp">3:06<i id="6" class="fa-solid songplay fa-1x fa-circle-play"></i></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom" ><div class="songinfo"><h2> 
+    song name goes here</h2><img src="music.gif" id="gif"></div>
+     <input type="range" id="ProgressBar" name="range" min="0" value=0 max="100" >
+     <div class="icons">
+         <i class="fa-solid fa-3x fa-step-backward" id="rewind"></i>
+         <i class="fa-solid fa-3x fa-circle-play" id="playSong"></i>
+         <i class="fa-solid fa-3x fa-step-forward" id="forward"></i>
+        </div>
+</div>
+<script src="javascript.js"></script>
+<script src="https://kit.fontawesome.com/83d56a00fc.js" crossorigin="anonymous"></script>
+</body>
+</html>

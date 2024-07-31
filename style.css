@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color:rgb(165, 236, 165);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    margin-top: 0%;
+    background-color: black;
+    display: flex;
+    color: springgreen;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+    height: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+li{
+    padding: 10px;
+}
+#title li{
+   color: white;
+    font-size: large;
+    
+    padding: -6px;
+    height: 8px;
+}
+#logo{
+    padding:7px;
+    width:100px;
+}
+.container{
+    height: 60vh;
+    background-color:black;
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    padding: 34px;
+    border-radius: 20px;
+    background-image: url('studio.jpg');
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+}
+.songlist{
+    margin-top: 10px;
+}
+
+.bottom{
+    min-height: 15vh;
+    position: sticky;
+    bottom: 0;
+    margin: 0px; 
+    height:10px ; 
+    background-color: black;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+    color: white;
+    padding-top: 19px;
+}
+#gif{
+    height: 50px;
+    opacity: 0;
+    transition: 2s ease-in;
+}
+#ProgressBar{
+    width: 80vw;
+    accent-color:springgreen;
+    cursor: pointer;
+}  
+.icons i{
+    margin-top: 10px;
+    padding: 10px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+
+}
+.songitem{
+    display: flex;
+    height: 50px;
+    width: 200%;
+    color: black;
+    background-color: whitesmoke;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.songitem img{
+    height: 50px;
+    border-radius: 25px;
+}
+.timestamp{
+    margin: 0 10px;
+}
+.songinfo{
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+#range{
+    background-color: black;
+    height: 65px;
+    width: 100vw;
+}
+#bar{
+    background-color: rgb(52, 196, 52);
+    height: 10px;
+    width: 1%;
+    border-radius: 10px;
+}
+
+.outericons{
+    display: flex;
+    justify-content: right;
+    right: 0;
+    position: absolute;
+}
