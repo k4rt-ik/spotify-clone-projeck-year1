@@ -1,1 +1,1 @@
-# spotify-clone-projeck-year1
+# spotify-clone-project-year1
